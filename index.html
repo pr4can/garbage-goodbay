@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=375, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="img/site.webmanifest">
+    <link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+	<title>Мусор Goodbye</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css?_v=20220121042931" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css?_v=20220121042931" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css?_v=20220121042931"/>
+    <link rel="stylesheet" href="css/style.min.css?_v=20220121042931" />
+</head>
+<body>
+	<header class="header">
+		<div class="header__top header-top">
+			<div class="header-top__container container">
+				<div class="header-top__row d-flex align-items-center justify-content-between">
+					<a href="" class="header-top__logo"><img src="img/logo.svg" alt=""></a>
+					<form action="" class="header-top__search search">
+						<input type="text" class="search__input" placeholder="Поиск">
+						<button type="submit" class="search__submit"><img src="img/search-icon.svg" alt=""></button>
+                        <a href="" class="search__mobile"><img src="img/search-icon.svg" alt=""></a>
+					</form>
+					<a href="tel:8(347)2222222" class="header-top__phone">8 (347) 222 22 22</a>
+					<div class="header-top__social social">
+						<a href="" class="social__item -instagram"><img src="img/instagram-icon.svg" alt=""></a>
+						<a href="" class="social__item -whatsapp"><img src="img/whatsapp-icon.svg" alt=""></a>
+						<a href="" class="social__item -vk"><img src="img/vk-icon.svg" alt=""></a>
+						<a href="" class="social__item -youtube"><img src="img/youtube-icon.svg" alt=""></a>
+					</div>
+					<a href="" class="header-top__basket basket">
+                        <span class="basket__icon" data-count="2">
+                            <img src="img/basket-icon.svg" alt="">
+                        </span>						
+						<span class="basket__title">Корзина</span>
+						<span class="basket__count">2</span>
+						<span class="basket__sum">1,737 ₽</span>
+					</a>
+					<a href="" class="header-top__account account">
+						<img src="img/account-icon.svg" alt="" class="account__icon">
+						<span class="account__title">Войти</span>
+					</a>
+				</div>
+			</div>				
+		</div>
+		<div class="header__bottom header-bottom">
+			<div class="header-bottom__container container">
+				<div class="header-bottom__row d-flex align-items-center">					
+					<a href="" class="header-bottom__burger"></a>
+					<nav class="header-bottom__nav nav">
+						<a href="" class="nav__item">Сортировка</a>
+						<a href="" class="nav__item">Интернет магазин</a>
+						<a href="" class="nav__item">О нас</a>
+						<a href="" class="nav__item">Стать частью проекта</a>
+						<a href="" class="nav__item">Партнерство</a>
+						<a href="" class="nav__item">Контакты</a>
+						<a href="" class="nav__item">Поддержать нас</a>
+					</nav>
+					<a href="tel:8(347)2222222" class="header-bottom__phone">8 (347) 222 22 22</a>
+					<a href="" class="header-bottom__order light-btn">Оформить заказ</a>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main>
+        <section class="banner">
+            <div class="banner__container container">
+                <div class="banner__row d-flex align-items-center justify-content-between">
+                    <div class="banner__col text d-flex flex-column align-items-start">
+                        <h1 class="text__title d-flex flex-column">
+                            <span>Вывоз мусора в Уфе</span>
+                            <span>за 200 рублей</span>
+                        </h1>
+                        <p class="text__desc">Повторной переработке поддается 60-70% содержимого нашего мусорного ведра</p>
+                        <a href="" class="text__link yellow-btn">Оформить заказ</a>
+                    </div>
+                    <div class="banner__col img">
+                        <img class="img__desktop" src="img/banner-desktop.png" alt="">
+                        <img class="img__tablet" src="img/banner-tablet.png" alt="">
+                        <img class="img__mobile" src="img/banner-mobile.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about">
+            <div class="about__container container">
+                <h2 class="about__title h2-title">О нас</h2>
+                <div class="about__row d-flex align-items-start justify-content-between">
+                    <div class="about__text">
+                        <p>Примерно 60-70% того, что вы ежедневно выбрасываете в мусорное ведро, можно сдать на переработку. Зачем это делать? </p>
+                        <p class="bold">Чтобы избавить планету от ковра мусора, который с каждым годом становится все больше.</p>
+                    </div>
+                    <div class="about__text">
+                        <p>Все что вам нужно: перестать выбрасывать вместе с остальным мусором пластик, бумагу, конмервы, аллюминиевые банки, полиэтиленовые мешки и связаться с нами. Мы приедем, заберем ваш мусор и отправим его на переработку. </p>
+                        <p class="bold">Единственное условие — мусор должен быть чистым и отсортированным.</p>
+                    </div>
+                    <div class="about__slider slider swiper">
+                        <div class="slider__wrapper swiper-wrapper">
+                            <div class="slider__slide swiper-slide">
+                                <img src="img/slider-img.png" alt="" class="slider__img">
+                            </div>
+                            <div class="slider__slide swiper-slide">
+                                <img src="img/slider-img.png" alt="" class="slider__img">
+                            </div>
+                            <div class="slider__slide swiper-slide">
+                                <img src="img/slider-img.png" alt="" class="slider__img">
+                            </div>
+                            <div class="slider__slide swiper-slide">
+                                <img src="img/slider-img.png" alt="" class="slider__img">
+                            </div>
+                        </div>
+                        <div class="slider__arrows arrows d-flex align-items-center justify-content-between">
+                            <a href="" class="arrows__item -prev"><img src="img/arrow-prev.png" alt=""></a>
+                            <a href="" class="arrows__item -next"><img src="img/arrow-next.png" alt=""></a>
+                        </div>
+                        <div class="slider__pagination swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="remember">
+            <div class="remember__container container">
+                <img src="img/remember-1.png" alt="" class="remember__img -first">
+                <img src="img/remember-2.png" alt="" class="remember__img -second">
+                <div class="remember__row d-flex align-items-start justify-content-between">
+                    <h2 class="remember__title h2-title">Памятка для тех, кто хочет нам помочь</h2>
+                    <ul class="remember__list">
+                        <li>Мусор на переработку <strong>принимается в чистом виде</strong> (мойте)</li>
+                        <li>Внимательно смотрите маркировку на упаковке. Если нет маркировки — <strong>не сдавать.</strong></li>
+                        <li><strong>Не принимается</strong> всё, что написано через дефис. Например: C/LDPE, C/PP</li>
+                        <li>Все, что можно смять, <strong>смело мните</strong></li>
+                        <li><strong>Сортируйте</strong> по инструкции, по видам</li>
+                        <li><strong>Не кладите</strong> предметы друг в друга. Например: мешки в бутылку</li>
+                        <li>7 вид пластика (только твердый) <strong>кладите отдельно</strong> (всчтречается редко)</li>
+                        <li>Батарейки и аккумуляторы <strong>принимаем</strong></li>
+                        <li>Так же <strong>отдельно</strong> можете сдать провода, кабели, шнуры</li>
+                        <li>Твердым пластиком считаеся всё, что <strong>твёрже пакета</strong></li>
+                        <li>Картоном считается всё, что <strong>плотнее</strong> листа А4</li>
+                        <li><strong>Мы забираем мусор</strong> из вашей квартиры. Наш выезд стоит — <strong>100 рублей</strong> в черте города.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="work">
+            <div class="work__container container">
+                <h2 class="work__title h2-title">Как мы обрабатываем?</h2>
+                <div class="work__row d-flex align-items-start">
+                    <a href="" class="work__item item">
+                        <img src="img/work-1.svg" alt="" class="item__icon">
+                        <p class="item__text">
+                            <span class="item__name">Собираем</span>
+                            <span class="item__desc">Распределяем весь собранный вами мусор по группам</span>
+                            <img src="img/work-arrow.svg" alt="" class="item__arrow">
+                        </p>                        
+                    </a>
+                    <a href="" class="work__item item">
+                        <img src="img/work-2.svg" alt="" class="item__icon">
+                        <p class="item__text">
+                            <span class="item__name">Забираем</span>
+                            <span class="item__desc">Увозим ваш мусор в сортировочный цех</span>
+                            <img src="img/work-arrow.svg" alt="" class="item__arrow">
+                        </p>                        
+                    </a>
+                    <a href="" class="work__item item">
+                        <img src="img/work-3.svg" alt="" class="item__icon">
+                        <p class="item__text">
+                            <span class="item__name">Храним</span>
+                            <span class="item__desc">До сортировки весь мусор хранится на нашем складе</span>
+                            <img src="img/work-arrow.svg" alt="" class="item__arrow">
+                        </p>                        
+                    </a>
+                    <a href="" class="work__item item">
+                        <img src="img/work-4.svg" alt="" class="item__icon">
+                        <p class="item__text">
+                            <span class="item__name">Сортируем</span>
+                            <span class="item__desc">Финальный этап подготовки к переработке</span>
+                            <img src="img/work-arrow.svg" alt="" class="item__arrow">
+                        </p>                        
+                    </a>
+                    <a href="" class="work__item item">
+                        <img src="img/work-5.svg" alt="" class="item__icon">
+                        <p class="item__text">
+                            <span class="item__name">Отправляем</span>
+                            <span class="item__desc">Все собранные вещи отправляются на переработку</span>
+                            <img src="img/work-arrow.svg" alt="" class="item__arrow">
+                        </p>                        
+                    </a>
+                </div>
+            </div>
+        </section>
+	</main>
+	<footer class="footer">
+        <div class="footer__top footer-top">
+            <div class="footer-top__container container">
+                <div class="footer-top__row d-flex align-items-start">
+                    <div class="footer-top__col">
+                        <ul class="footer-top__menu menu">
+                            <li class="menu__item"><a href="">Главная</a></li>
+                            <li class="menu__item"><a href="">Сортировка</a></li>
+                            <li class="menu__item"><a href="">Интернет магазин</a></li>
+                            <li class="menu__item"><a href="">О нас</a></li>
+                            <li class="menu__item"><a href="">Стать частью проекта</a></li>
+                            <li class="menu__item"><a href="">Партнерство</a></li>
+                            <li class="menu__item"><a href="">Контакты</a></li>
+                            <li class="menu__item"><a href="">Поддержать нас</a></li>   
+                        </ul>
+                    </div>
+                    <div class="footer-top__col">
+                        <ul class="footer-top__menu menu">
+                            <li class="menu__item"><a href="">Способы оплаты</a></li>
+                            <li class="menu__item"><a href="">Доставка</a></li>
+                            <li class="menu__item"><a href="">Возврат товара</a></li>
+                            <li class="menu__item"><a href="">Политика конфиденциальности</a></li>  
+                        </ul>
+                        <a href="" class="footer-top__btn dark-btn">Оформить заказ</a>
+                    </div>
+                    <div class="footer-top__col">
+                        <a href="tel:8(347)2222222" class="footer-top__phone">8 (347) 222 22 22</a>
+                        <p class="footer-top__address">г. Уфа, ул. Пробная, д 132</p>
+                        <div class="footer-top__social social">
+                            <a href="" class="social__item -instagram"><img src="img/instagram-icon.svg" alt=""></a>
+						    <a href="" class="social__item -whatsapp"><img src="img/whatsapp-icon.svg" alt=""></a>
+						    <a href="" class="social__item -vk"><img src="img/vk-icon.svg" alt=""></a>
+						    <a href="" class="social__item -youtube"><img src="img/youtube-icon.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom footer-bottom">
+            <div class="footer-bottom__container container">
+                <div class="footer-bottom__row d-flex align-items-center">
+                    <span class="footer-bottom__company">2020 site.ru</span>
+                    <a href="" class="footer-bottom__develop">Создание сайта — <span>Red Promo</span></a>
+                </div>                
+            </div>
+        </div>
+	</footer>
+	<script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js?_v=20220121042931" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  	<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js?_v=20220121042931"></script>
+    <script defer src="js/app.min.js?_v=20220121042931"></script>
+</body>
+</html>
+
